@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3465230:1704905688/D1490261.jpg?f=16x9&$p$f=6b1aa5d);
+    background-size: cover;
+    
+}
+
+form{
+    width: 500px;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 10px;
+    justify-content: center;
+}
+form h1{ 
+    color: white;
+    font-size: 24px;
+    
+}
+form label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    }
+
+form input,form select{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #c4c4c4;
+        padding-left: 10px;
+        transition-duration: 500ms;
+        outline-color: #c4c4c4;
+    }
+
+
+
+
+form input{
+    width: 100%;
+    height: 46px;
+    border: 0;
+    color:black;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    font-size: medium;
+}
+
+input:hover{
+    background-color: #cac8c8;
+    transition-duration: 300ms;
+}
+
+
