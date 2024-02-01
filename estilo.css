@@ -16,13 +16,14 @@ body{
 
 form{
     width: 500px;
-    border: 1px solid white;
+    border: 1px solid #131212;
     padding: 16px;
     border-radius: 10px;
     justify-content: center;
+    background-color: white;
 }
 form h1{ 
-    color: white;
+    color: #6f6d6d;
     font-size: 24px;
     
 }
@@ -32,7 +33,7 @@ form label{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
+    color: #101010;
     }
 
 form input,form select{
@@ -40,10 +41,11 @@ form input,form select{
         height: 40px;
         margin-bottom: 10px;
         border-radius: 5px;
-        border: 1px solid #c4c4c4;
+        border: 1px solid #161515;
         padding-left: 10px;
         transition-duration: 500ms;
-        outline-color: #c4c4c4;
+        outline-color: #222121;
+        background-color: #e0dcdc;
     }
 
 
@@ -64,8 +66,12 @@ form input{
 }
 
 input:hover{
-    background-color: #cac8c8;
+    background-color: #8d8a8a;
     transition-duration: 300ms;
 }
 
 
+input[type="button"]{
+    background-color: #222121;
+    color: white;
+}
